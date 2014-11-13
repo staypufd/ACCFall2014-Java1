@@ -1,3 +1,12 @@
+package edu.austincc.application;
+
+
+import edu.austincc.pets.ComputerPet;
+import edu.austincc.pets.Dog;
+import edu.austincc.pets.Fish;
+import edu.austincc.pets.Pet;
+
+
 /**
  * 
  */
@@ -8,6 +17,11 @@
  */
 public class App {
 
+	public static Float versionNum = 2.0f;
+	
+	public static String[] colors = { "Red", "Blue", "Green" };
+	
+	
 	/**
 	 * @param args
 	 */
@@ -59,6 +73,15 @@ public class App {
 		for (int q = 0; q < morePets.length; q++) {
 			System.out.println(morePets[q]);
 		}
+		
+		System.out.print("Pet 8 is " );
+		System.out.print(morePets[8].getAge());
+		System.out.println(" years old.");
+		
+		
+		Object theClass = App.class;
+		System.out.println(theClass);
+		
 	}
 
 }

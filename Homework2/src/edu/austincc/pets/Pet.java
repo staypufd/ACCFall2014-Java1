@@ -1,3 +1,4 @@
+package edu.austincc.pets;
 /**
  * 
  */
@@ -7,9 +8,9 @@
  *
  */
 public abstract class Pet {
-	String name;
-	String color;
-	int age;
+	protected String name;
+	protected String color;
+	protected int age;
 	
 	
 
